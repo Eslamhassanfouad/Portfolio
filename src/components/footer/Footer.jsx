@@ -30,7 +30,7 @@ export default function Footer() {
         <a href="https://www.facebook.com/eso.vip">
           <FaFacebookF style={{ fontSize: "1.2rem" }} />
         </a>
-        <a href="https://www.linkedin.com/in/eslam-hassan92">
+        <a href="https://www.linkedin.com/in/eslam-hassan95">
           <BsLinkedin style={{ fontSize: "1.2rem" }} />
         </a>
         <a href="https://github.com/Eslamhassanfouad">
