@@ -1,0 +1,86 @@
+header {
+  min-height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+/* =================== CTA ==========================================*/
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+/*===========================Header Socials=========*/
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 15%;
+  bottom: 3rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 1.5px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/*================ es img ===================*/
+
+.me {
+  background: linear-gradient(#cbeefc, transparent);
+  width: 22rem;
+  height: 30rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll__down {
+  position: absolute;
+  left: 80%;
+  bottom: 7rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* medium devices*/
+@media screen and (max-width: 1024px) {
+  header {
+    min-height: 68vh;
+  }
+  .header__socials {
+    left: 8%;
+  }
+
+  .scroll__down {
+    left: 90%;
+  }
+}
+
+/* small devices*/
+
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}
